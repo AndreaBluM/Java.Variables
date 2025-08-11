@@ -29,13 +29,15 @@ public class Main {
         System.out.println("Ingresa salario: ");
         int salario = scanner.nextInt();
 
-        int calcularañio = 2025 - edad;
+        int calcularAnio = 2025 - edad;
         System.out.println("El nombre es: " + nombre);
         System.out.println("La edad es: " + edad);
         System.out.println("La nacionalidad es: " + nacionalidad);
         System.out.println("La ocupacion es: " + ocupacion);
         System.out.println("El salario es: " + salario);
-        System.out.println("El año de nacimiento es: " + calcularañio);
+        System.out.println("El año de nacimiento es: " + calcularAnio);
+
+        scanner.close();
     }
 
 
